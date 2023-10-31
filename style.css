@@ -234,7 +234,7 @@ hr{
 	height: 70px;
 	position: absolute;
 	right: 35%;
-	margin-top: 20px;
+	margin-top: 10px;
 	background-color: gray;
 }
 .sosmed-1 img{
@@ -245,7 +245,7 @@ hr{
 	height: 70px;
 	position: absolute;
 	right: 58%;
-	margin-top: 100px;
+	margin-top: 120px;
 	background-color: black;
 }
 .sosmed-2 img{
@@ -257,7 +257,7 @@ hr{
 	height: 70px;
 	position: absolute;
 	right: 35%;
-	margin-top: 100px;
+	margin-top: 120px;
 	background-color: hotpink;
 }
 .sosmed-3 img{
@@ -268,7 +268,7 @@ hr{
 	height: 70px;
 	position: absolute;
 	right: 58%;
-	margin-top: 20px;
+	margin-top: 10px;
 	background-color: gray;
 }
 
@@ -281,7 +281,7 @@ hr{
 	height: 70px;
 	position: absolute;
 	right: 35%;
-	margin-top: 190px;
+	margin-top: 220px;
 	background-color: green;
 }
 .sosmed-5 img{
@@ -293,7 +293,7 @@ hr{
 	height: 70px;
 	position: absolute;
 	right: 58%;
-	margin-top: 190px;
+	margin-top: 220px;
 	background-color: darksalmon;
 }
 .sosmed-6 img{
