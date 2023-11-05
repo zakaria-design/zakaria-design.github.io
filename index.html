@@ -1,63 +1,105 @@
 <!DOCTYPE html>
-<html lang="en" id="home">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Zakaria_halaman_utama</title>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home_zakaria_blogspot</title>
+</head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
+<style>
+	
+</style>
+<body>
+	
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
+		<!-- navbar -->
 
-    <!-- navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-            </button>
-            <a href="#home" class="navbar-brand page-scroll">zakaria</a>
-        </div>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="" width="40">
+            Zakaria
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-             <li><a href="#about" class="page-scroll">Tujuan</a></li>
-             <li><a href="#materi_modul" class="page-scroll">Materi</a></li>
-             <li><a href="#contact" class="page-scroll">Profil penulis</a></li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#about">Tujuan</a>
+            </li>
+             <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#materi">Materi</a>
+            </li>
+            <li class="nav-item">
+                  <a class="nav-link" href="#biodata">Biodata</a>
+            </li>
+            <li class="nav-item">
+                  <a class="nav-link" href="#my contact">My contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
           </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
       </div>
     </nav>
 
-    <!-- akhir navbar -->
+  <div class="container-md">
 
 
-   <!-- jumbotron -->
-   <div class="jumbotron text-center">
-      <img src="img/zaka.png" class="img-circle">
-      <h1>Welcome</h1>
-      <p>Resume Modul Komputer Dan Masyarakat</p>
-     
-   </div>
-   <!-- akhir jumbotron -->
+        <!-- slide show -->
+
+		<div id="carouselExampleCaptions" class="carousel slide d-ms-block" data-bs-ride="carousel">
+		    <div class="carousel-indicators">
+		        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		    </div>
+		    <div class="carousel-inner">
+		        <div class="carousel-item active">
+		           <img src="img/gambar-1.jpg" class="d-block w-100" alt="...">
+		           <div class="carousel-caption d-none d-md-block">
+		             <h5>Komputer dan masyarakat</h5>
+		             <p>Bijaklah dalam menggunakan teknologi.</p>
+		           </div>
+		        </div>
+		    <div class="carousel-item">
+		        <img src="img/gambar-2.jpg" class="d-block w-100" alt="...">
+		        <div class="carousel-caption d-none d-md-block">
+		           <h5>KOmputer dan masyarakat</h5>
+		           <p>Pentingnya teknologi dalam kehidupan.</p>
+		        </div>
+		    </div>
+		    <div class="carousel-item">
+		        <img src="img/gambar-3.jpg" class="d-block w-100" alt="...">
+		        <div class="carousel-caption d-none d-md-block">
+		           <h5>Komputer dan masyarakat</h5>
+		           <p>Sejarah, perkembangan teknologi.</p>
+		        </div>
+		    </div>
+		    </div>
+		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Previous</span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Next</span>
+		  </button>
+	   </div>
 
 
-   <!-- tujuan -->
-   <section class="about" id="about">
+    <!-- tujuan -->
+  
+		<section class="about" id="about" style="margin-top: 100px;">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -65,134 +107,180 @@
           <hr>
         </div>
       <div class="row">
-        <div class="col-sm-8 col-sm-offset-2 text-center">
+        <div class="col-12 text-center">
           <p>Dalam industry 5.0 yang saat ini sedang trend dan makin berkembang sangat
              lah penting kita mengetahui dan mempelajari bagaimana perkembangan itu terjadi agar kita tidak tertinggal dengan kemajuan teknologi yang sangat pesat dimasa sekarang ini, untuk itu saya membuat rangkuman dari modul komputer dan masyarakat. dengan tujuan mempermudah dalam mempelajarinya saya telah membaginya dengan beberapa bagian agar bisa lebih mudah dipahami.</p>
-        </div>
-      
+        </div>    
       </div>
       </div> 
     </div>  
    </section>
-   <!-- akhir tujuan -->
 
 
+   <!-- materi -->
 
-  <!-- materi -->
-  <section class="Materi_modul" id="materi_modul">
-   <div class="container-2">
-    <h1>Materi Modul Komputer Dan Masyarakat</h1>
-    <hr class="materi">
-    <div class="kotak1">
-      <a href="https://zakaria-design.github.io/pertemuan1/ " target="blank">
-        <img src="img/pengenalan komputer.jpg">
-          <h2 class="pelapis-1">PENGENALAN KOMPUTER</h2>
-          <h4>pertemuan 1</h4>
-          
-        </a>
-    </div>
-
-    <div class="kotak1">
-      <a href="https://zakaria-design.github.io/pertemuan2/" target="blank">
-        <img src="img/perkembangan.jpg">
-        <h2 class="pelapis-2">SEJARAH, PERKEMBANGAN DAN KRITIK TENTANG TEKNOLOGI MAJU</h2>
-          <h4>pertemuan 2</h4>
-        </a>
-    </div>
-
-    <div class="kotak1">
-      <a href="https://zakaria-design.github.io/pertemuan3/" target="blank">
-        <img src="img/pemanfaatn komputer.jpg">
-        <h2 class="pelapis-1">PEMANFAATAN KOMPUTER DI MASYARAKAT</h2>
-          <h4>pertemuan 3</h4>
-        </a>
-    </div>
-
-    <div class="kotak1">
-      <a href="https://zakaria-design.github.io/pertemuan4/" target="blank">
-        <img src="img/komputer dan pendidikan.jpg">
-        <h2 class="pelapis-1">KOMPUTER DAN PENDIDIKAN</h2>
-          <h4>pertemuan 4</h4>
-        </a>
-    </div>
-
-    <div class="kotak1">
-      <a href="https://zakaria-design.github.io/pertemuan5/" target="blank">
-        <img src="img/komputer dan pemerintah.jpg">
-        <h2 class="pelapis-1">KOMPUTER DAN PEMERINTAHAN</h2>
-          <h4>pertemuan 5</h4>
-        </a>
-    </div>
-
-    <div class="kotak1">
-      <a href="https://zakaria-design.github.io/pertemuan6/" target="blank">
-        <img src="img/komputer dan industri.jpg">
-        <h2 class="pelapis-1">KOMPUTER DAN INDUSTRI</h2>
-          <h4>pertemuan 6</h4>
-        </a>
-    </div>
-
-    <div class="kotak1">
-      <a href="https://zakaria-design.github.io/pertemuan7/" target="blank">
-        <img src="img/masyarakat informasi.jpg">
-        <h2 class="pelapis-1">MASYARAKAT  DAN INFORMASI</h2>
-          <h4>pertemuan 7</h4>
-        </a>
-    </div>
-
-    <div class="kotak1">
-      <a href="https://zakaria-design.github.io/pertemuan8/" target="blank">
-        <img src="img/ciri masyarakat.jpg">
-        <h2 class="pelapis-2">CIRI MASYARAKAT DENGAN TEKNOLOGI MODERN</h2>
-          <h4>pertemuan 8</h4>
-        </a>
-    </div>
-
-    <div class="kotak1">
-      <a href="https://zakaria-design.github.io/pertemuan9/" target="blank">
-        <img src="img/dunia usaha.jpg">
-        <h2 class="pelapis-1">DUNIA USAHA</h2>
-          <h4>pertemuan 9</h4>
-        </a>
-    </div>
-
-    <div class="kotak1">
-      <a href="https://zakaria-design.github.io/pertemuan10/" target="blank">
-        <img src="img/e comerce.jpg">
-        <h2 class="pelapis-1">ECOMMERCE DAN EBUSINESS</h2>
-          <h4>pertemuan 10</h4>
-        </a>
-    </div>
-
-    <div class="kotak1">
-      <a href="https://zakaria-design.github.io/pertemuan11/" target="blank">
-        <img src="img/keamanan sistem informasi.jpg">
-        <h2 class="pelapis-1">KEAMANAN SISTEM INFORMASI</h2>
-          <h4>pertemuan 11</h4>
-        </a>
-    </div>
-
-    <div class="kotak1">
-      <a href="https://zakaria-design.github.io/pertemuan12/" target="blank">
-        <img src="img/privasi dan kejahatan komputer.jpg">
-        <h2 class="pelapis-1">PRIPASI DAN KEJAHATAN KOMPUTER</h2>
-          <h4>pertemuan 12</h4>
-        </a>
-    </div>
-  </div> 
-  </section>
-  <!-- materi akhir -->
-
-  <!-- profil -->
-  <section class="contact" id="contact">
+   <section class="about" id="materi" style="margin-top: 100px;">
     <div class="container">
-     <div class="row">
-      <div class="col-sm-12 text-center"> 
-        <h2> My Profil</h2>
-        <hr>
-        <div class="row">
-          <div class="col-sm-12 text-center">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="text-center">Materi</h2>
+          <hr>
+        </div>
+      <div class="row ">
+        <div class="col-12 col-md-4 mt-1 d-flex justify-content-around">
+        	<div class="kotak ">
+        		<a href="">
+	        		<div class="d-flex justify-content-center ">
+	        		   <img src="img/pengenalan komputer.jpg" alt="" class="">
+	        		   <h4>Pertemuan 1</h4>
+	        		   <div class="pelapis"><h4 style="margin-top : 28px;">PENGENALAN KOMPUTER</h4></div>
+	        		</div>
+	        	</a>
+        	</div> 
+        </div>
+        <div class="col-12 col-md-4 mt-1 d-flex justify-content-around">
+        	<div class="kotak ">
+        		<a href="">
+	        		<div class="d-flex justify-content-center ">
+	        		   <img src="img/perkembangan.jpg" alt="" class="">
+	        		   <h4>Pertemuan 2</h4>
+	        		   <div class="pelapis"><h4 style="margin-top: 18px; font-size: 18px;">SEJARAH, PERKEMBANGAN DAN KRITIK TENTANG TEKNOLOGI MAJU</h4></div>
+	        		</div>
+	        	</a>
+        	</div> 
+        </div>
+        <div class="col-12 col-md-4 mt-1 d-flex justify-content-around">
+        	<div class="kotak ">
+        		<a href="">
+	        		<div class="d-flex justify-content-center ">
+	        		   <img src="img/pemanfaatn komputer.jpg" alt="" class="">
+	        		   <h4>Pertemuan 3</h4>
+	        		   <div class="pelapis"><h4 style="margin-top :20px ; font-size: 20px;">PEMANFAATAN KOMPUTER DI MASYARAKAT</h4></div>
+	        		</div>
+	        	</a>
+        	</div> 
+        </div>
+        <div class="col-12 col-md-4 mt-1 d-flex justify-content-around">
+        	<div class="kotak ">
+        		<a href="">
+	        		<div class="d-flex justify-content-center ">
+	        		   <img src="img/komputer dan pendidikan.jpg" alt="" class="">
+	        		   <h4>Pertemuan 4</h4>
+	        		   <div class="pelapis"><h4 style="margin-top :25px ;">KOMPUTER DAN PENDIDIKAN</h4></div>
+	        		</div>
+	        	</a>
+        	</div> 
+        </div>
+        <div class="col-12 col-md-4 mt-1 d-flex justify-content-around">
+        	<div class="kotak ">
+        		<a href="">
+	        		<div class="d-flex justify-content-center ">
+	        		   <img src="img/komputer dan pemerintah.jpg" alt="" class="">
+	        		   <h4>Pertemuan 5</h4>
+	        		   <div class="pelapis"><h4 style="margin-top :25px ;">KOMPUTER DAN PEMERINTAHAN</h4></div>
+	        		</div>
+	        	</a>
+        	</div> 
+        </div>
+        <div class="col-12 col-md-4 mt-1 d-flex justify-content-around">
+        	<div class="kotak ">
+        		<a href="">
+	        		<div class="d-flex justify-content-center ">
+	        		   <img src="img/komputer dan industri.jpg" alt="" class="">
+	        		   <h4>Pertemuan 6</h4>
+	        		   <div class="pelapis"><h4 style="margin-top :25px ;" >KOMPUTER DAN INDUSTRI</h4></div>
+	        		</div>
+	        	</a>
+        	</div> 
+        </div>
+        <div class="col-12 col-md-4 mt-1 d-flex justify-content-around">
+        	<div class="kotak ">
+        		<a href="">
+	        		<div class="d-flex justify-content-center ">
+	        		   <img src="img/masyarakat informasi.jpg" alt="" class="">
+	        		   <h4>Pertemuan 7</h4>
+	        		   <div class="pelapis"><h4 style="margin-top :25px ;">MASYARAKAT  DAN INFORMASI</h4></div>
+	        		</div>
+	        	</a>
+        	</div> 
+        </div>
+        <div class="col-12 col-md-4 mt-1 d-flex justify-content-around">
+        	<div class="kotak ">
+        		<a href="">
+	        		<div class="d-flex justify-content-center ">
+	        		   <img src="img/ciri masyarakat.jpg" alt="" class="">
+	        		   <h4>Pertemuan 8</h4>
+	        		   <div class="pelapis"><h4 style="margin-top :20px ; font-size: 20px;">CIRI MASYARAKAT DENGAN TEKNOLOGI MODERN</h4></div>
+	        		</div>
+	        	</a>
+        	</div> 
+        </div>
+        <div class="col-12 col-md-4 mt-1 d-flex justify-content-around">
+        	<div class="kotak ">
+        		<a href="">
+	        		<div class="d-flex justify-content-center ">
+	        		   <img src="img/dunia usaha.jpg" alt="" class="">
+	        		   <h4>Pertemuan 9</h4>
+	        		   <div class="pelapis"><h4 style="margin-top :39px ; margin-left: 20px;">DUNIA USAHA</h4></div>
+	        		</div>
+	        	</a>
+        	</div> 
+        </div>
+        <div class="col-12 col-md-4 mt-1 d-flex justify-content-around">
+        	<div class="kotak ">
+        		<a href="">
+	        		<div class="d-flex justify-content-center ">
+	        		   <img src="img/e comerce.jpg" alt="" class="">
+	        		   <h4>Pertemuan 10</h4>
+	        		   <div class="pelapis"><h4 style="margin-top :25px ;">E-COMMERCE DAN E-BUSINESS</h4></div>
+	        		</div>
+	        	</a>
+        	</div> 
+        </div>
+        <div class="col-12 col-md-4 mt-1 d-flex justify-content-around">
+        	<div class="kotak ">
+        		<a href="">
+	        		<div class="d-flex justify-content-center ">
+	        		   <img src="img/keamanan sistem informasi.jpg" alt="" class="">
+	        		   <h4>Pertemuan 11</h4>
+	        		   <div class="pelapis"><h4 style="margin-top :18px ;">KEAMANAN SISTEM INFORMASI</h4></div>
+	        		</div>
+	        	</a>
+        	</div> 
+        </div>
+        <div class="col-12 col-md-4 mt-1 d-flex justify-content-around">
+        	<div class="kotak ">
+        		<a href="">
+	        		<div class="d-flex justify-content-center ">
+	        		   <img src="img/privasi dan kejahatan komputer.jpg" alt="" class="">
+	        		   <h4>Pertemuan 12</h4>
+	        		   <div class="pelapis"><h4 style="margin-top :16px ;">PRIPASI DAN KEJAHATAN KOMPUTER</h4></div>
+	        		</div>
+	        	</a>
+        	</div> 
+        </div>
+      </div>
+      </div> 
+    </div>  
+   </section>
 
+<!-- biodata -->
+   <section class="about" id="biodata" style="margin-top: 100px; margin-right: 3%;">
+    <div class="container-utama">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="text-center">Biodata penulis</h2>
+          <hr>
+        </div>
+        <div class="row">
+        	<div class="col-12 d-flex justify-content-center" >
+        		<img src="img/zaka.png" alt="">
+        	</div>
+        	
+        </div>
+
+         <div class="row">
+          <div class="col-sm-12 text-center  ">
               <div class="container_biodata">
                 <div class="biodata">
                   <h4 class="isi_biodata">Nama </h4>  
@@ -238,89 +326,53 @@
                 </div>
               </div>
             </div>
-        </div>
+        </div>    
       </div>
-     </div>
+      </div> 
+    </div>  
+   </section>
+
+
+
+<!-- sosial media -->
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark" id="my contact" style="margin-top:70px ;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">My contact</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="https://github.com/zakaria-design" target="blank">
+          	<img src="media/github.jpg" width="40">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/zaka-ria-a96b96236/" target="blank">
+          	<img src="media/linkedin.jpg" width="40">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://youtube.com/@zekyfernando3505?si=83NceTCv_lrRNJQ0" target="blank">
+          	<img src="media/yt.jpg" width="40">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+          	<img src="media/wa.jpg" width="40">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+          	<img src="media/fb.jpg" width="40">
+          </a>
+        </li>
+      </ul>
     </div>
-  </section>
-
-  <!-- akhir profil -->
-  
-
-  <!--  awal sosial media -->
-      <div class="judul-sosmed">
-        <h2>My sosial media</h2>
-        <hr>
-      </div>
-      <div class="sosmed">
-        <div class="sosmed-1">
-        <a href="" target="blank">
-           <img src="media/fb.jpg" alt="">
-           <h2>Facebook</h2> 
-        </a> 
-        </div>
-        <div class="sosmed-2">
-        <a href="https://github.com/zakaria-design" target="blank">
-           <img src="media/github.jpg" alt="">
-           <h2>Github</h2> 
-        </a> 
-        </div>   
-        <div class="sosmed-3">
-        <a href="" target="blank">
-           <img src="media/ig.jpg" alt="">
-           <h2>Instagram</h2>
-        </a>   
-        </div>
-        <div class="sosmed-4"> 
-        <a href="https://www.linkedin.com/in/zaka-ria-a96b96236/" target="blank">
-           <img src="media/linkedin.jpg" alt="">
-           <h2>Linkedin</h2> 
-        </a>
-        </div>     
-        <div class="sosmed-5"> 
-        <a href="https://web.whatsapp.com/" target="blank">
-           <img src="media/wa.jpg" alt=""> 
-           <h2>Whatsapp</h2>
-        </a> 
-        </div>
-        <div class="sosmed-6">
-        <a href="https://youtube.com/@zekyfernando3505?si=83NceTCv_lrRNJQ0" target="blank">  
-           <img src="media/yt.jpg" alt="">
-           <h2>Youtube </h2>
-        </a>
-        </div>     
-      </div>
-
-
-  <!--  akhir sosial media -->
-
-
-  <!-- footer -->
-  <footer>
-    <div class="container text-center">
-      <div class="col-sm-12">
-        <p>&copy;copy right 2023 | built by <a href="#"><i class="
-glyphicon glyphicon-user"></i> zakaria</a></p>
-      </div>
-      <div class="row">
-        <div class="col-sm-2 col-sm-offset-3">
-          
-        </div>
-         <div class="col-sm-2">
-          
-        </div>
-         
-        
-      </div>
-    </div>
-  </footer>
-  <!-- akhir footer -->
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-3.7.0.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <script src="js/script.js"></script>
-  </body>
+  </div>
+</nav>
+	</div>
+<script src="js/bootstrap.min.js"></script>
+</body>
 </html>

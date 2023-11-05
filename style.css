@@ -1,385 +1,102 @@
-html {
-	position: relative;
-}
-body{
-	margin-bottom: 220px;
-	margin-top: 30px;
-	background-color: rgba(200, 200, 200, .5);
-}
-.jumbotron {
-	background-image: url(img/background.png);
-	background-attachment: fixed;
-	background-size: cover;
-	height: 500px;
-	background-position: 0 -100px;
-}
-.jumbotron h1, .jumbotron p{
-	text-shadow: 1px 1px 5px white;
-}
-
-.jumbotron img {
-	border: 2px solid gray;
-	width: 150px;
-}
-hr{
-	width: 250px;
-	border: solid 1px gray;
-}
-section {
-	min-height: 250px;
-}
-
-.thumbnail a:hover{
-
-
-}
-
-footer {
-	position: absolute;
-	background-color: gray;
-	height: 70px;
-	width: 100%;
-	bottom: 0;
-	padding-top: 30px;
-}
-.contact {
-	min-height: 800px;
-}
-
-footer p {
-	color: white;	
-	font-size: 14px;
-}
-footer a {
-	color: white;
-}
-footer i {
-	color: black;
-}
-
-.materi_modul {
-	margin-top: 50px;
+.carousel {
+    background-attachment: fixed;
+    margin-top: 50px;
 }
 
 
-//ini css materinya
-
-div {
-	width: 400px;
-	height: 400px;
-	border: 3px solid black;
-	position: relative;
+.border {
+    width: 280px;
+    height: 160px;
 }
-.materi {
-	width: 350px;
-}
-
-span {
-	width: 250px;
-	height: 150px;
-	background-color: rgba(200, 200, 200, .8);
-	display: block;
-	text-align: center;
-	position: absolute;
-	font-size: 27px;
-	top: 24px;
-	left: 90px;
-	color: black;
-	transition: 0.8s;
-	opacity: 0;
-	transform: scale(0) ;
+.mt-1 {
+    margin-top: 50px !important;
 
 }
- .col-sm-4:hover span {
- 	opacity: 1;
- 	transform: scale(1);
+.ms-1 {
+    
+}
+.d-flex{
+    margin-top: 10px;
+}
+.d-flex h4 {
+    position: absolute;
+    margin-top: 110px;
+}
+.kotak {
+    border: 2px solid rgba(200, 200, 200, .8);
+    width: 285px;
+    height: 160px;
+    border-radius: 5px;
+    box-shadow: gray;
+
+}
+.kotak:hover {
+    border: 2px solid hotpink;
+    transition: .5s;
+
+
+}
+.pelapis {
+    width: 200px;
+    height: 112px;
+    position: absolute;
+    background-color: rgba(200, 200, 200, .8);
+    opacity: 0;
+    transition: .6s;
+    transform: scale(0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+.d-flex:hover .pelapis{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.container_biodata{
+    width: 70%;
+    margin-left: 15%;
+    
  }
-
-.container-2 {
-	width: 100%
-	height: 1000px;
-	position: relative;
-	background-color: ;
-
-}
-.container-2 h1 {
-	text-align: center;
-}
-.container-2 {
-	background-color: white;
-	margin: auto;
-	text-align: center;
-}
- .kotak1 {
- 	width: 280px;
- 	height: 160px;
- 	background-color:white ;
- 	display: inline-block;
- 	margin-left: 70px;
- 	margin-top: 20px;
- 	border-radius: 4%;
- 	border: 1px solid rgba(200, 200, 200, .8);
- 	position: relative;
- }
- 
- .pelapis-1 {
- 	width: 190px;
- 	height: 120px;
- 	background-color: rgba(200,200,200,.8);
- 	display: block;
- 	position: absolute;
- 	top: -10px;
- 	right: 45px;
- 	text-align: center;
- 	opacity: 0;
- 	transition: .5s;
- 	transform: scale(0);
- 	color: black;
- 	font-size: 20px;
- 	padding: 30px;
- }
- .pelapis-2 {
- 	width: 190px;
- 	height: 120px;
- 	background-color: rgba(200,200,200,.8);
- 	display: block;
- 	position: absolute;
- 	top: -10px;
- 	right: 45px;
- 	text-align: center;
- 	opacity: 0;
- 	transition: .5s;
- 	transform: scale(0);
- 	color: black;
- 	font-size: 20px;
- 	padding: auto;
- }
- 
- 
- .kotak1:hover h2{
- 	opacity: 1;
- 	transform: scale(1);
- }
-
- .kotak1 h4{
- 	position: absolute;
- 	bottom: -5px;
- 	right: 80px;
- 	font-size: 20px;
- }
-
- .kotak1 img{
- 	position: absolute;
- 	right: 40px;
- 	top: 10px;
- }
-
- .kotak1:hover {
- 	border: 1px solid hotpink;
- 	transition: .5s;
- 	box-shadow: gray;
- }
-
- 
-
- .container_biodata{
- 	width: 70%;
- 	margin-left: 15%;
- 	
+ .container-utama {
+     margin-left: 3%;
  }
  .container-2 h4 {
- 	font-size: 120%;
+    font-size: 120%;
  }
 
 .biodata {
-	height: 30px;
-	width: 100%;
+    height: 30px;
+    width: 100%;
+
 }
 .isi_biodata {
-	text-align: center;
-	font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+    font-size: 98%;
+    
 
 }
+
 .identitas{
-	height: 40px;
-	width: 100%;
-	border: 1px solid gray;
-	background-color: rgba(200, 200, 200, .8);
-	transition: .6s;
-	transform: scale(.8);
+    height: 40px;
+    width: 100%;
+    border: 1px solid gray;
+    background-color: rgba(200, 200, 200, .8);
+    transition: .6s;
+    transform: scale(.8);
 }
 .isi_identitas {
-	text-align: center;
+    text-align: center;
+    font-size: 98%;
+    line-height:40px ;
+    border-radius: 10px;
 }
 .identitas:hover{
-	background-color: hotpink;
-	color: white;
-	transform: scale(1);
+    background-color: hotpink;
+    color: white;
+    transform: scale(1);
 }
 
-
-
-/*ini css sosmed*/
-
-.judul-sosmed{
-	margin: auto;
-	text-align: center;
-}
-hr{
-	width: 50%;
-}
-
-.sosmed-1{
-	width: 70px;
-	height: 70px;
-	position: absolute;
-	right: 35%;
-	margin-top: 10px;
-	background-color: gray;
-}
-.sosmed-1 img{
-	width: 100%;
-}
-.sosmed-2{
-	width: 70px;
-	height: 70px;
-	position: absolute;
-	right: 58%;
-	margin-top: 120px;
-	background-color: black;
-}
-.sosmed-2 img{
-	width: 100%;
-}
-
-.sosmed-3{
-	width: 70px;
-	height: 70px;
-	position: absolute;
-	right: 35%;
-	margin-top: 120px;
-	background-color: hotpink;
-}
-.sosmed-3 img{
-	width: 100%;
-}
-.sosmed-4{
-	width: 70px;
-	height: 70px;
-	position: absolute;
-	right: 58%;
-	margin-top: 10px;
-	background-color: gray;
-}
-
-.sosmed-4 img{
-	width: 100%;
-}
-
-.sosmed-5{
-	width: 70px;
-	height: 70px;
-	position: absolute;
-	right: 35%;
-	margin-top: 220px;
-	background-color: green;
-}
-.sosmed-5 img{
-	width: 100%;
-}
-
-.sosmed-6{
-	width: 70px;
-	height: 70px;
-	position: absolute;
-	right: 58%;
-	margin-top: 220px;
-	background-color: darksalmon;
-}
-.sosmed-6 img{
-	width: 100%;
-}
-.sosmed{
-	width: 100%;
-	height: 300px;
-	background-color: white;
-	position: relative;	
-}
-.sosmed-1 h2{
-	margin-left: 100px;
-	bottom: 70px;
-	position: relative;
-	right: 100px;
-	opacity: 0;
-	transition: .9s;
-}
-.sosmed-1 h2:hover{
-	opacity: 1;
-	transform: translate(70px);
-}
-
-.sosmed-2 h2{
-	margin-left: 100px;
-	bottom: 70px;
-	position: relative;
-	right: 100px;
-	opacity: 0;
-	transition: .9s;
-}
-.sosmed-2 h2:hover{
-	opacity: 1;
-	transform: translate(-82px);
-}
-
-.sosmed-3 h2{
-	margin-left: 100px;
-	bottom: 70px;
-	position: relative;
-	right: 100px;
-	opacity: 0;
-	transition: .9s;
-}
-.sosmed-3 h2:hover{
-	opacity: 1;
-	transform: translate(72px);
-}
-
-.sosmed-4 h2{
-	margin-left: 100px;
-	bottom: 70px;
-	position: relative;
-	right: 100px;
-	opacity: 0;
-	transition: .9s;
-}
-.sosmed-4 h2:hover{
-	opacity: 1;
-	transform: translate(-112px);
-}
-
-.sosmed-5 h2{
-	margin-left: 100px;
-	bottom: 70px;
-	position: relative;
-	right: 100px;
-	opacity: 0;
-	transition: .9s;
-}
-.sosmed-5 h2:hover{
-	opacity: 1;
-	transform: translate(74px);
-}
-
-.sosmed-6 h2{
-	margin-left: 100px;
-	bottom: 70px;
-	position: relative;
-	right: 100px;
-	opacity: 0;
-	transition: .9s;
-}
-.sosmed-6 h2:hover{
-	opacity: 1;
-	transform: translate(-110px);
-}
-
+.nav-item {
